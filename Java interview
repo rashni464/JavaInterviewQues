@@ -36,3 +36,9 @@ Pointers are quite complicated and unsafe to use by beginner programmers. Java f
 usage of pointers can make it challenging. Moreover, security is also compromised if pointers are used because the users can directly 
 access memory with the help of pointers Moreover, the usage of pointers can make the procedure of garbage collection quite slow and
 erroneous.
+
+7. What do you understand by an instance variable and a local variable?
+A) Instance variables are those variables that are accessible by all the methods in the class. They are declared outside the methods and 
+inside the class. 
+Local variables are those variables present within a block, function, or constructor and can be accessed only inside them. The utilization 
+of the variable is restricted to the block scope.
