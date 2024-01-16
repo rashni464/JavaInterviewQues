@@ -42,3 +42,14 @@ A) Instance variables are those variables that are accessible by all the methods
 inside the class. 
 Local variables are those variables present within a block, function, or constructor and can be accessed only inside them. The utilization 
 of the variable is restricted to the block scope.
+
+8)What are the default values assigned to variables and instances in java?
+There are no default values assigned to the variables in java. We need to initialize the value before using it. Otherwise,
+it will throw a compilation error of (Variable might not be initialized). 
+But for instance, if we create the object, then the default value will be initialized by the default constructor 
+depending on the data type. 
+
+9) What do you mean by data encapsulation?
+Data Encapsulation is an Object-Oriented Programming concept of hiding the data attributes and their behaviours.We 
+are binding the data with the methods. only way we can use the data is by using methods.Outside world cannot use it directly.
+we are encapsulationg data and methods.
