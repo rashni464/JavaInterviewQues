@@ -19,3 +19,14 @@ A)Object-oriented, Platform-independent, Simple, Secure, Portable, Robust, Multi
 Q) Why java is Rubost?
 A)Java is robust because it utilizes strong memory management.There is automatic garbage collection in Java which runs
 on the Java Virtual Machine to eliminate objects which are not being accepted by a Java application anymore.
+
+Q)What is multithreading in java?
+A)Multithreading is a programming concept in which the application can create a small unit of tasks to execute in parallel.
+If you are working on a computer, it runs multiple applications and allocates processing power to them. A simple program runs
+in sequence and the code statements execute one by one. Example( if your are running a code in VS when you type a static it will
+pop up with all the static words and sametime it willshow if you have any error. That is done by multi threading).
+
+q)3. Difference between Heap and Stack Memory in java. And how java utilizes this.
+Stack memory is the portion of memory that was assigned to every individual program. And it was fixed. On the other hand, Heap memory
+is the portion that was not allocated to the java program but it will be available for use by the java program when it is required,
+mostly during the runtime of the program.
