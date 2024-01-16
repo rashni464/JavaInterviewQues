@@ -30,3 +30,9 @@ q)3. Difference between Heap and Stack Memory in java. And how java utilizes thi
 Stack memory is the portion of memory that was assigned to every individual program. And it was fixed. On the other hand, Heap memory
 is the portion that was not allocated to the java program but it will be available for use by the java program when it is required,
 mostly during the runtime of the program.
+
+Q) Pointers are used in C/ C++. Why does Java not make use of pointers?
+Pointers are quite complicated and unsafe to use by beginner programmers. Java focuses on code simplicity, and the 
+usage of pointers can make it challenging. Moreover, security is also compromised if pointers are used because the users can directly 
+access memory with the help of pointers Moreover, the usage of pointers can make the procedure of garbage collection quite slow and
+erroneous.
