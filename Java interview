@@ -8,3 +8,14 @@ can be executed by the JVM (Java Virtual Machine) on any platform regardless of 
 Why Java is not entirely object-oriented?
 Java is not entirely object-oriented since it uses eight primitive data types that are not objects: boolean,
 byte, char, int, float, double, long, and short.
+
+Q)What is the main difference between JDK, JRE, and JVM?
+A) JDK (Java Development Kit) is for development, JRE (Java Runtime Environment) is for running Java applications, and JVM 
+(Java Virtual Machine) is an execution environment for running Java bytecode.
+
+Q)Explain the main features of Java.
+A)Object-oriented, Platform-independent, Simple, Secure, Portable, Robust, Multithreaded, High Performance, Distributed.
+
+Q) Why java is Rubost?
+A)Java is robust because it utilizes strong memory management.There is automatic garbage collection in Java which runs
+on the Java Virtual Machine to eliminate objects which are not being accepted by a Java application anymore.
