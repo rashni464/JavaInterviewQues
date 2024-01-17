@@ -62,3 +62,13 @@ exists; if not, it creates one
 11) what is rest api?
 A) rest api is used to transfer the data from domain to another domain via http protacol.
 
+12) difference between SOAP and rest?
+A) Soap is used to transfer data from one domain to other when application is in XML based.
+Rest api is used to transfer the data from domain to another domain via http protacol when application is in xml, json and test..
+
+13) What is XML?
+a) when we write a angular code and in backend if we write java then there should be common language to communicate 
+so they use Xml. But xml is very complex so now a days they are using JSON as common language.
+
+
+
