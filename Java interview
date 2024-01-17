@@ -53,3 +53,12 @@ depending on the data type.
 Data Encapsulation is an Object-Oriented Programming concept of hiding the data attributes and their behaviours.We 
 are binding the data with the methods. only way we can use the data is by using methods.Outside world cannot use it directly.
 we are encapsulationg data and methods.
+
+10)What is a singleton in Java?
+A singleton class in Java ensures only one instance of itself exists. To make one, create a class with a private static instance 
+variable and a private constructor. Then, provide a public static method to access the instance. This method checks if the instance
+exists; if not, it creates one
+
+11) what is rest api?
+A) rest api is used to transfer the data from domain to another domain via http protacol.
+
