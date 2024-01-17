@@ -1,1 +1,16 @@
+Q) how production support works?
+A) Once a developer write the code and commit it the build get runs in the jenkins which checks all the test cases, build etc  after all the stages passes get deployed in 
+the dev with the new version number.
+2: Once the testing is done we will go to UCD and with the same version we deploy that in sit and uat envirnoments.
+3: At the end in the pcf we will deploy for production. In wells we use PCF but other company they  use Kubernates. once it get deployed
+in the kubernetics the local server level logs run in the Kubernetis. and to check all the logs there is a tool named datadoc or splunk
+which has all the logs. ( How the applcation logs can be seen in the datadoc: datadoc have a jar that will be added in te java 
+program when the aplication got deployed and runs on the server then that logs show up in the datadoc)
+4: The developer go in to the datadoc and check the logs based on that if he find any issue he works.
+
+Q) How a  developer solves the production issues?
+A) First he goes and check the splunk or datadoc for logs.
+secondly he checks weather the server is up or down in the pcf
+Thridly hewe check any thrid party servers have any issue or not because most of our servers depends on otherservers aswell.
+
 
