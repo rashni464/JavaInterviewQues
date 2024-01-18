@@ -70,5 +70,18 @@ Rest api is used to transfer the data from domain to another domain via http pro
 a) when we write a angular code and in backend if we write java then there should be common language to communicate 
 so they use Xml. But xml is very complex so now a days they are using JSON as common language.
 
+14) what is put and patch?
+A) put is used to update the resource and create a new resource aswell.you need to send the all the  attributes in the body. 
+If that attribute need update it will update all the attribute.
+Patch: If you have 50 attributes and you want to upddate the phonenumber than we use patch. No need to send the all the attributes
+in the body. 
+
+15) what is idompotent?
+a) In general words idompotent means unchangable operation. though u send multiple request the result will be same.
+Get - Is Idompotent: It is used for read only operations. Though we send multple request it won't change anything.
+Post- is not idompotent: Used to create a new object or resource. when you create a eployee object first time it will
+creae and again if you send the same employee again it will create that object.
+Put: Is it Idompotent: If you update anything for first requeste it will update for second request it is unchangable.
+Delete: It is idompotent: 
 
 
