@@ -104,3 +104,19 @@ This happend because of unclosed resources when Failure to close resources such 
 they are used can lead to memory leaks.
 Using more static references which has lifespan throught the application and more use of callback references.
 
+18) what is final, finally and finalized.
+A) final and finally is  a keyword whereas fininalized is a method.
+Final: We can use final with the variables which will be constants.If we use final with the class it will stop inherientence.
+If we use finalin the methods it will stop overriding.
+Finally is used to close the resources. If we want to connect to database after use we need to close the connection that can be 
+done by Finally.
+Finalized method: this method is used when the garbage collector is elimating the unwanted objected before to that we use 
+finalized method.
+
+19) Method Overloading:
+Definition: Method overloading occurs when a class has multiple methods with the same name but different parameters
+(number, type, or both).
+Method Overriding:
+Definition: Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in 
+its superclass. The method signature (name, return type, and parameters) must be the same in both the superclass and the subclass.
+
