@@ -120,3 +120,10 @@ Method Overriding:
 Definition: Method overriding occurs when a subclass provides a specific implementation for a method that is already defined in 
 its superclass. The method signature (name, return type, and parameters) must be the same in both the superclass and the subclass.
 
+Java 8 and 11?
+The appletviewer tool is available in Java 8.   The appletviewer tool is not available in Java 11.
+java 8 have It has fewer string methods.	java 11 have Several new methods of String such as isBlank(), lines(), repeat(n), and many more
+Java 8 has  lambda expressions, no special variables are used.. Java 11 In lambda expressions, var variables are used.
+java 8 Pattern recognition is not possible.  java 11 With the help of the asMatchPredicate() method, pattern recognition is possible
+java 8 It has less garbage collector memory .. java 11 more garbage collection
+java 8 Var keyword is not available.  java 11 Var keyword is available in Java 11, which is termed as a developer-friendly keyword.
