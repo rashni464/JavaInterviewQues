@@ -130,3 +130,9 @@ Java 8 has  lambda expressions, no special variables are used.. Java 11 In lambd
 java 8 Pattern recognition is not possible.  java 11 With the help of the asMatchPredicate() method, pattern recognition is possible
 java 8 It has less garbage collector memory .. java 11 more garbage collection
 java 8 Var keyword is not available.  java 11 Var keyword is available in Java 11, which is termed as a developer-friendly keyword.
+
+Q) what is the pillar of OOPS?
+a) Encapsulation
+b)Inheritance
+c)polymesphysm
+d) Abstraction
