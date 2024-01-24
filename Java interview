@@ -22,6 +22,9 @@ on the Java Virtual Machine to eliminate objects which are not being accepted by
 
 Q)What is multithreading in java?
 A)Multithreading is a programming concept in which the application can create a small unit of tasks to execute in parallel.
+
+@) What is the pillars of OOPS cocept?
+A) E
 If you are working on a computer, it runs multiple applications and allocates processing power to them. A simple program runs
 in sequence and the code statements execute one by one. Example( if your are running a code in VS when you type a static it will
 pop up with all the static words and sametime it willshow if you have any error. That is done by multi threading).
