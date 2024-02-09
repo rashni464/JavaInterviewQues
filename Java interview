@@ -136,3 +136,8 @@ a) Encapsulation
 b)Inheritance
 c)polymesphysm
 d) Abstraction
+
+What is Lambda Functions?
+In Java, a lambda expression is a concise way to represent an anonymous function. It provides a clear and concise syntax for writing small
+functions and is particularly useful when you need to pass functionality as an argument to another method.
+(parameters) -> { statements; }
