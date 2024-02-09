@@ -141,3 +141,19 @@ What is Lambda Functions?
 In Java, a lambda expression is a concise way to represent an anonymous function. It provides a clear and concise syntax for writing small
 functions and is particularly useful when you need to pass functionality as an argument to another method.
 (parameters) -> { statements; }
+
+Interface vs abstract class when we used?
+In Java, both interfaces and abstract classes are used to define contracts or blueprints for classes to implement or extend,
+When to Use Which:
+
+Use Interfaces:
+
+When you want to support multiple inheritance of behavior.
+When you only need to declare method signatures without providing any default implementation.
+
+Use Abstract Classes:
+
+When you want to provide a common base implementation for multiple related classes.
+When you want to share code among multiple subclasses.
+When you need to define a mix of abstract and concrete methods.
+When you need constructors or other member variables in addition to methods.
