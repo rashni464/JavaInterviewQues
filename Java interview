@@ -184,3 +184,8 @@ If you need a specific sorting algorithm not provided by the Java API, or if you
 you can implement one yourself. Common sorting algorithms include bubble sort, insertion sort, selection sort, merge sort, quicksort,
 etc.
 
+-------------------------------------
+Serialization and deserialization in Spring Boot?
+Serialization and deserialization in Spring Boot typically involve converting Java objects to a serialized form (e.g., JSON or XML) for 
+data interchange or storage and then converting them back to Java objects. Spring Boot provides support for various serialization and deserialization
+mechanisms, often through libraries like Jackson, Gson, or XML converters.
