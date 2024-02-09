@@ -136,12 +136,12 @@ a) Encapsulation
 b)Inheritance
 c)polymesphysm
 d) Abstraction
-
+----------------------
 What is Lambda Functions?
 In Java, a lambda expression is a concise way to represent an anonymous function. It provides a clear and concise syntax for writing small
 functions and is particularly useful when you need to pass functionality as an argument to another method.
 (parameters) -> { statements; }
-
+-------------------------
 Interface vs abstract class when we used?
 In Java, both interfaces and abstract classes are used to define contracts or blueprints for classes to implement or extend,
 When to Use Which:
@@ -157,3 +157,22 @@ When you want to provide a common base implementation for multiple related class
 When you want to share code among multiple subclasses.
 When you need to define a mix of abstract and concrete methods.
 When you need constructors or other member variables in addition to methods.
+----------------------
+LinkedList and ArrayList
+LinkedList and ArrayList are both implementations of the List interface in Java.
+ArrayList internally uses an array to store elements. It dynamically resizes this array when needed.
+
+When to Use Which:
+Use ArrayList When:
+
+You need fast random access to elements.
+You mostly perform insertions and deletions at the end of the list.
+Memory efficiency is a concern, especially for large lists.
+Use LinkedList When:
+
+You frequently perform insertions and deletions at arbitrary positions within the list.
+You don't require fast random access to elements.
+Memory overhead is not a critical concern, or you have a relatively small list.
+
+
+
